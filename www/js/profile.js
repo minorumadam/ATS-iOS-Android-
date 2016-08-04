@@ -35,8 +35,6 @@ $(document).ready(function() {
             $("#preloader").css('display','none');
             $("#state").css('display','none');
 
-            navigator.notification.alert("Today is " + m_names[curr_month]+"/" +
-            curr_date+"/" + curr_year, null, 'Hi!', 'OK');
 
             //User Username
             var f_customer = result.customer.first_name;
@@ -51,7 +49,7 @@ $(document).ready(function() {
                         '<p class="per">agent</p><p class="bob"><b>'
                         +first_rep+' '+last_rep+'</b></p>'+'<div class="available">'+
                         '<p id="av">Available</p>'+
-                        '<p id="iv">Invalid</p>'+
+                        '<p id="iv">Not Available</p>'+
                         '<img src="img/avail.png" id="avail">'+
                         '<img src="img/invalid.png" id="invalid">'+
                         '</div>';
@@ -87,8 +85,6 @@ $(document).ready(function() {
                 $('#iv').show();
                 $('#invalid').show();
             }
-
-
 
             $('#photo').append(photo);
 

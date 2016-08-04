@@ -282,7 +282,7 @@ body p,a,div,label,li,button
 .property
 {
     /*width: 35%;*/
-    width: calc(40vw - 37px);
+    width: calc(40vw - 20px);
     float: left;
 
 }
@@ -307,7 +307,7 @@ body p,a,div,label,li,button
 .agent
 {
     /*width: 40%;*/
-    width: calc(50vw - 35px);
+    width: calc(50vw - 55px);
     float: right;
     margin-right: 5px;
 }
